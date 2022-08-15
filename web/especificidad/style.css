@@ -1,0 +1,20 @@
+* {
+    color: violet !important;
+}
+
+h1 {
+    color: green !important;
+}
+
+.header {
+    color: red !important;
+}
+
+#header {
+    color: blue !important;
+}
+
+.header {
+    color:darkcyan !important;
+}
+
