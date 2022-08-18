@@ -14,9 +14,7 @@ function searchOut(){
             console.log("Es primo");
             break;
         }
-        if (parseInt(intNumber % i) === 0) {
-            console.log("No es primo");
-            break;
-        }
+        console.log("No es primo");
+        break;
     }
 }
