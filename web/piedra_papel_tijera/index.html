@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, scissor, paper</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="game-container">
+        <!-- Agregar botones de piedra papel y tijera -->
+        <div class="title-container">
+          <h1 class="title-game">ROCK - SCISSORS - PAPER!!!</h1>
+        </div>
+        <div class="buttons-container">
+          <button class="rock-button " id="rock-button" value="rock">✊ Rock</button>
+          <button class="scissor-button" id="scissor-button" value="scissor">✌ Scissor</button>
+          <button class="paper-button" id="paper-button" value="paper">✋ Paper</button>
+        </div>
+        <div class="score-container">
+          <h2 class="score-header">Score</h2>
+          <span class="player">Player 🐱‍👤</span>
+          <span class="player-score" id="player-score">0</span>
+          <span class="bot">Bot 🤖</span>
+          <span class="bot-score" id="bot-score">0</span>
+        </div>
+        <div class="message-container">
+          <div class="selections-container" id="selections-container">
+            <span class="player-selection">Player <span id="player-selection">-</span></span>
+            <span class="bot-selection">Bot <span id="bot-selection">-</span></span>
+          </div>
+          <div class="message-container" id="message-container">
+            <!-- win, lost or draw -->
+            <span class="message" id="message">---</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

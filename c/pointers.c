@@ -1,24 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
+int main()
+{
+    int var = 99;
+    int *pointerVariable;
 
-int main(){
-	char *string = "Hello, world!";
-	
-	int counter = 0;
+    pointerVariable = &var;
 
-	while((int) string[counter] != 0){
-		printf("%c", string[counter]);
-		counter++;
-	}
-	printf("\n");
-	
-	counter = 0;
-
-	while((int) *(string + counter) != 0){
-		printf("%c", *(string + counter));
-		counter++;
-	}
-	printf("\n");
-
-	return 0;	
+    printf("Address of var variable: %x\n", &var);
+    printf("Address stored in pointerVariable: %x\n", pointerVariable);
+    printf("Value of pointerVariable: %d\n", *pointerVariable);
 }
